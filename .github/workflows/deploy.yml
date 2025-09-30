@@ -17,4 +17,5 @@ jobs:
           port: 22
           script: |
             cd /home/ubuntu/emartapp
+            docker-compose build -d
             docker-compose up -d
